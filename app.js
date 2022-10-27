@@ -1,5 +1,5 @@
 const poke_container = document.getElementById("poke_container");
-const pokemons_number = 1000;
+const pokemons_number = 905;
 const colors = {
   fire: "#FDDFDF",
   grass: "#DEFDE0",
@@ -46,7 +46,7 @@ function createPokemonCard(pokemon) {
   const pokeInnerHTML = `
         <div class="img-container">
             <img src="${
-              pokemon.sprites.other["dream_world"].front_default
+              pokemon.sprites.other["official-artwork"].front_default
             }" alt="pokemon" />
         </div>
         <div class="info">
